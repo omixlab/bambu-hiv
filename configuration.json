@@ -1,0 +1,77 @@
+{
+   "name":"Bambu-HIV",
+   "favicon":"",
+   "description":"A webserver for HIV-related QSAR models built using <a style='text-decoration: none' href='https://github.com/omixlab/bambu-v2'>Bambu</a>.",
+   "models":[
+      {
+         "model":"data/models/1053136_model.pickle",
+         "preprocessor":"data/preprocessors/1053136_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/1053136'>Inhibitors for LEDGF/p75-dependent integration</a>"
+      },
+      {
+         "model":"data/models/1053197_model.pickle",
+         "preprocessor":"data/preprocessors/1053197_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/1053197'>Inhibitors of sialic acid acetylesterase</a>"
+      },
+      {
+         "model":"data/models/1117319_model.pickle",
+         "preprocessor":"data/preprocessors/1117319_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/1117319'>Inhibitors for HIV-1 Vif-dependent degradation of human APOBEC3G</a>"
+      },
+      {
+         "model":"data/models/1117361_model.pickle",
+         "preprocessor":"data/preprocessors/1117361_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/1117361'>Inhibitors for HIV-1 Vif-dependent degradation of human APOBEC3G</a>"
+      },
+      {
+         "model":"data/models/1986_model.pickle",
+         "preprocessor":"data/preprocessors/1986_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/1986'>Fusion inhibitors for HIV</a>"
+      },
+      {
+         "model":"data/models/372_model.pickle",
+         "preprocessor":"data/preprocessors/372_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/372'>Inhibition of RNase H from HIV</a>"
+      },
+      {
+         "model":"data/models/463187_model.pickle",
+         "preprocessor":"data/preprocessors/463187_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/463187'>Inhibitors for nef protein</a>"
+      },
+      {
+         "model":"data/models/565_model.pickle",
+         "preprocessor":"data/preprocessors/565_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/565'>Inhibitors for reverse transcriptase</a>"
+      },
+      {
+         "model":"data/models/624170_model.pickle",
+         "preprocessor":"data/preprocessors/624170_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/624170'>Inhibitors of glutaminase</a>"
+      },
+      {
+         "model":"data/models/624416_model.pickle",
+         "preprocessor":"data/preprocessors/624416_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/624416'>HIV-1 gp120-antibody binding</a>"
+      },
+      {
+         "model":"data/models/651571_model.pickle",
+         "preprocessor":"data/preprocessors/651571_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/651571'>HIV-1 gp120-antibody binding</a>"
+      },
+      {
+         "model":"data/models/651604_model.pickle",
+         "preprocessor":"data/preprocessors/651604_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/651604'>HIV-1 gp120-antibody binding</a>"
+      },
+      {
+         "model":"data/models/704_model.pickle",
+         "preprocessor":"data/preprocessors/704_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/704'>Inhibitors of the rev-RRE RNA interaction</a>"
+      },
+      {
+         "model":"data/models/743269_model.pickle",
+         "preprocessor":"data/preprocessors/743269_preprocessor.pickle",
+         "name":"<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/743269'>Inhibitors of HIV-1 LEDGF/p75 DNA integration</a>"
+      }
+   ]
+}

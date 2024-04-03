@@ -1,0 +1,102 @@
+{'model': 'data/models/1053136_model.pickle', 'preprocessor': 'data/preprocessors/1053136_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/1053136'>Inhibitors for LEDGF/p75-dependent integration</a>"}
+{'model': 'data/models/1053197_model.pickle', 'preprocessor': 'data/preprocessors/1053197_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/1053197'>Inhibitors of sialic acid acetylesterase</a>"}
+{'model': 'data/models/1117319_model.pickle', 'preprocessor': 'data/preprocessors/1117319_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/1117319'>Inhibitors for HIV-1 Vif-dependent degradation of human APOBEC3G</a>"}
+{'model': 'data/models/1117361_model.pickle', 'preprocessor': 'data/preprocessors/1117361_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/1117361'>Inhibitors for HIV-1 Vif-dependent degradation of human APOBEC3G</a>"}
+{'model': 'data/models/1986_model.pickle', 'preprocessor': 'data/preprocessors/1986_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/1986'>Fusion inhibitors for HIV</a>"}
+{'model': 'data/models/372_model.pickle', 'preprocessor': 'data/preprocessors/372_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/372'>Inhibition of RNase H from HIV</a>"}
+{'model': 'data/models/463187_model.pickle', 'preprocessor': 'data/preprocessors/463187_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/463187'>Inhibitors for nef protein</a>"}
+{'model': 'data/models/565_model.pickle', 'preprocessor': 'data/preprocessors/565_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/565'>Inhibitors for reverse transcriptase</a>"}
+{'model': 'data/models/624170_model.pickle', 'preprocessor': 'data/preprocessors/624170_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/624170'>Inhibitors of glutaminase</a>"}
+{'model': 'data/models/624416_model.pickle', 'preprocessor': 'data/preprocessors/624416_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/624416'>HIV-1 gp120-antibody binding</a>"}
+{'model': 'data/models/651571_model.pickle', 'preprocessor': 'data/preprocessors/651571_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/651571'>HIV-1 gp120-antibody binding</a>"}
+{'model': 'data/models/651604_model.pickle', 'preprocessor': 'data/preprocessors/651604_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/651604'>HIV-1 gp120-antibody binding</a>"}
+{'model': 'data/models/704_model.pickle', 'preprocessor': 'data/preprocessors/704_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/704'>Inhibitors of the rev-RRE RNA interaction</a>"}
+{'model': 'data/models/743269_model.pickle', 'preprocessor': 'data/preprocessors/743269_preprocessor.pickle', 'name': "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/743269'>Inhibitors of HIV-1 LEDGF/p75 DNA integration</a>"}
+ * Serving Flask app 'bambu_server.config'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8085
+ * Running on http://200.132.101.156:8085
+Press CTRL+C to quit
+ 
+ -------------- worker@omixlab-ThinkStation-P340 v5.3.6 (emerald-rush)
+--- ***** ----- 
+-- ******* ---- Linux-5.15.0-91-generic-x86_64-with-glibc2.10 2024-04-03 13:19:18
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         bambu_server.config:0x7fc38ff84c70
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 1 (thread)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[2024-04-03 13:19:18,902: WARNING/MainProcess] /home/fredericokremer/miniconda3/envs/bambu-server/lib/python3.8/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-03 13:19:18,905: WARNING/MainProcess] /home/fredericokremer/miniconda3/envs/bambu-server/lib/python3.8/site-packages/celery/worker/consumer/consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+127.0.0.1 - - [03/Apr/2024 13:41:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:41:41] "GET /static/js/jsme/jsme.nocache.js HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2024 13:41:41] "GET /static/js/jsme/jsa.css HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2024 13:41:41] "GET /static/js/jsme/gwt/chrome/chrome.css HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2024 13:41:41] "GET /static/js/jsme/gwt/chrome/mosaic.css HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2024 13:41:41] "GET /static/js/jsme/3D67E597FCB4058FA8D1958C27CA53FA.cache.js HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2024 13:41:42] "GET /static/js/jsme/clear.cache.gif HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2024 13:56:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:06] "GET /static/js/jsme/jsme.nocache.js HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2024 13:56:06] "GET /static/js/jsme/jsa.css HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2024 13:56:06] "GET /static/js/jsme/gwt/chrome/chrome.css HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2024 13:56:06] "GET /static/js/jsme/gwt/chrome/mosaic.css HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2024 13:56:06] "GET /static/js/jsme/3D67E597FCB4058FA8D1958C27CA53FA.cache.js HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2024 13:56:06] "GET /static/js/jsme/clear.cache.gif HTTP/1.1" 304 -
+127.0.0.1 - - [03/Apr/2024 13:56:13] "POST /predict HTTP/1.1" 302 -
+127.0.0.1 - - [03/Apr/2024 13:56:13] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:14] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:14] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:14] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:14] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:14] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:15] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:15] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:15] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:15] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:15] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:15] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:16] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:16] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:16] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:16] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:16] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:16] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:16] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:17] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:17] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:17] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:17] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:17] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:17] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:18] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:18] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:18] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:18] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:18] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:18] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:18] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:19] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:19] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:19] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:19] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:25] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Apr/2024 13:56:26] "GET /results/a2de4820-8bf0-4fa5-9fdd-54be6f9da688 HTTP/1.1" 200 -

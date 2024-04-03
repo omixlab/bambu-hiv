@@ -1,0 +1,13 @@
+name: bambu-server-hiv
+channels:
+  - conda-forge
+  - rdkit
+  - mordred
+dependencies:
+  - python=3.9
+  - pip
+  - mordred
+  - pip:
+    - git+https://github.com/samoturk/mol2vec
+    - -r requirements.txt
+    - -e 
